@@ -1,6 +1,5 @@
-
-
-
+# Tarea AWS Re/Start aWS
+> ( posee algunos errores no criticos)
 Escribir un programa que permita gestionar la base de datos de clientes de una empresa. 
 
 Los clientes se guardarán en un diccionario en el que la clave de cada cliente será su NIF, y el valor será otro diccionario con los datos del cliente (nombre, dirección, teléfono, correo, preferente), donde preferente tendrá el valor True si se trata de un cliente preferente. 
