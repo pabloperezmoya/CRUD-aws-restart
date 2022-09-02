@@ -100,18 +100,6 @@ class DB:
             return True, 'Adding client'
 
     
-
-
-#a = DB()
-#a.delete('fa55b', force=True)
-#a.update('fa55b',{"nombre": "Enrique", "direccion": "Casablanca", "email": "casablanca@email.com", "preferente": True})
-
-#print(a.add_client({"nombre": "Pablo", "direccion": "Las erdjf 123", "email": "ppm@email.com", "preferente": True}))
-#a.add_client({"nombre": "oeoe", "direccion": "Ldsfsdfds", "email": "qq@email", "preferente": False})
-
-#client1 = {"nombre": "Pablo", "direccion": "Las erdjf 123", "email": "ppm@email.com", "preferente": True}
-#client2 = {"456": {"nombre": "oeoe", "direccion": "Ldsfsdfds", "email": "qq@email", "preferente": False}}
-
 def ask_data():
     lista_data = ['nombre', 'direccion', 'email', 'preferente']
     data = {}
